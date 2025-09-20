@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+svg {
+    border: 2px solid #34495e;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #87ceeb 0%, #98fb98 60%);
+}
