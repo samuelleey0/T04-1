@@ -21,3 +21,28 @@ svg {
     border-radius: 10px;
     background: linear-gradient(to bottom, #87ceeb 0%, #98fb98 60%);
 }
+
+/* Scoped styles for adjusted scene only */
+#scene-adjusted .enhanced-fence {
+    stroke-dasharray: 8, 4;
+}
+
+#scene-adjusted .enhanced-stroke {
+    stroke-width: 3;
+}
+
+#scene-adjusted .subtle-smoke {
+    opacity: 0.6;
+}
+
+/* Scoped styles for annotated scene only */
+#scene-annotated #annotations {
+    font-size: 12px;
+    fill: #333;
+    stroke: #999;
+    stroke-width: 1;
+}
+
+#scene-annotated #annotations text {
+    pointer-events: none;
+}
